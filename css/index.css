@@ -1,0 +1,28 @@
+.menu_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.menu_wrapper .menu{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    gap: 1rem;
+
+}
+.links >a{
+    text-decoration-line: none;
+
+}
+a{
+color: blue;
+}
+.whatsapp{
+    width: 64px;
+    position: fixed;
+    right: 36px;
+    bottom: 24px;
+}
